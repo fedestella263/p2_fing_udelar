@@ -1,0 +1,54 @@
+# pruebas para prioritario,prioridad_prioritario,priorizar,hay_prioridad, despriorizar
+es_vacia_cp
+es_llena_cp
+hay_prioridad 0
+hay_prioridad 1
+hay_prioridad 2
+hay_prioridad 50
+hay_prioridad 51
+insertar_en_cp 50 (1,a)
+prioritario
+prioridad_prioritario
+es_vacia_cp
+es_llena_cp
+hay_prioridad 50
+priorizar 50
+hay_prioridad 50
+hay_prioridad 25
+prioritario
+prioridad_prioritario
+priorizar 25
+hay_prioridad 50
+hay_prioridad 25
+hay_prioridad 12
+prioritario
+prioridad_prioritario
+priorizar 12
+hay_prioridad 50
+hay_prioridad 25
+hay_prioridad 12
+hay_prioridad 6
+prioritario
+prioridad_prioritario
+priorizar 6
+priorizar 3
+hay_prioridad 50
+hay_prioridad 25
+hay_prioridad 12
+hay_prioridad 6
+hay_prioridad 3
+hay_prioridad 1
+prioritario
+prioridad_prioritario
+despriorizar 1
+prioritario
+prioridad_prioritario
+despriorizar 25
+prioritario
+prioridad_prioritario
+despriorizar 37
+prioritario
+prioridad_prioritario
+eliminar_prioritario
+es_vacia_cp
+Fin

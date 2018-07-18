@@ -1,0 +1,159 @@
+# pruebas para cola_prioridad
+max_prioridad
+es_vacia_cp
+es_llena_cp
+hay_prioridad 0
+hay_prioridad 1
+hay_prioridad 50
+hay_prioridad 51
+insertar_en_cp 50 (1,a)
+prioritario
+prioridad_prioritario
+es_vacia_cp
+es_llena_cp
+eliminar_prioritario
+es_vacia_cp
+insertar_en_cp 50 (1,a)
+es_vacia_cp
+hay_prioridad 50
+insertar_en_cp 50 (2,b)
+insertar_en_cp 1 (2,b)
+hay_prioridad 1
+hay_prioridad 50
+prioritario
+prioridad_prioritario
+priorizar 1
+hay_prioridad 0
+hay_prioridad 1
+prioritario
+prioridad_prioritario
+hay_prioridad 25
+priorizar 50
+hay_prioridad 25
+hay_prioridad 50
+# pasaria a 25 y ya hay
+despriorizar 0
+priorizar 25
+hay_prioridad 12
+hay_prioridad 25
+despriorizar 0
+hay_prioridad 25
+hay_prioridad 0
+prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioritario
+prioridad_prioritario
+insertar_en_cp 30 (30,c)
+insertar_en_cp 35 (35,d)
+insertar_en_cp 40 (40,e)
+insertar_en_cp 45 (45,f)
+insertar_en_cp 48 (48,g)
+prioridad_prioritario
+insertar_en_cp 14 (14,h)
+prioridad_prioritario
+insertar_en_cp 10 (10,i)
+prioridad_prioritario
+insertar_en_cp 5 (5,j)
+prioridad_prioritario
+es_llena_cp
+insertar_en_cp 1 (1,k)
+es_llena_cp
+prioridad_prioritario
+# estaba en la ultima posicion y sigue ahi
+despriorizar 45
+hay_prioridad 47
+# estaba en la primera posicion y sigue ahi
+priorizar 1
+hay_prioridad 0
+eliminar_prioritario
+priorizar 48
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+es_vacia_cp
+eliminar_prioritario
+es_vacia_cp
+# Fin
+# pruebas para tabla
+esta_llena_tabla
+existe_asociacion 10
+asociar_en_tabla 10 diez
+existe_asociacion 10
+valor_en_tabla 10
+eliminar_de_tabla 10
+existe_asociacion 10
+asociar_en_tabla 10 diez
+asociar_en_tabla 10 diez-bis
+valor_en_tabla 10
+asociar_en_tabla 23 veintitres
+asociar_en_tabla 36 veintitres
+asociar_en_tabla 49 veintitres
+asociar_en_tabla 62 sesentaydos
+asociar_en_tabla 75 setentaycinco
+asociar_en_tabla 88 ochentayocho
+asociar_en_tabla 130 cientrotreinta
+valor_en_tabla 23
+valor_en_tabla 36
+valor_en_tabla 49
+valor_en_tabla 62
+valor_en_tabla 75
+valor_en_tabla 88
+valor_en_tabla 130
+asociar_en_tabla 0 cero
+asociar_en_tabla 12 doce
+asociar_en_tabla 13 trece
+asociar_en_tabla 25 veinticinco
+asociar_en_tabla 0 cero-bis
+asociar_en_tabla 12 doce-bis
+valor_en_tabla 0
+valor_en_tabla 12
+valor_en_tabla 13
+valor_en_tabla 25
+esta_llena_tabla
+asociar_en_tabla 101 cientouno
+esta_llena_tabla
+eliminar_de_tabla 0
+esta_llena_tabla
+existe_asociacion 0
+asociar_en_tabla 26 veintyseis
+esta_llena_tabla
+eliminar_de_tabla 12
+eliminar_de_tabla 13
+eliminar_de_tabla 25
+eliminar_de_tabla 26
+eliminar_de_tabla 23
+eliminar_de_tabla 36
+eliminar_de_tabla 49
+eliminar_de_tabla 62
+eliminar_de_tabla 75
+eliminar_de_tabla 88
+eliminar_de_tabla 130
+eliminar_de_tabla 101
+eliminar_de_tabla 10
+# Fin
+# pruebas de mayores
+mayores 1 10 .
+mayores 1 10 (2,a) .
+mayores 2 10 (2,a) .
+mayores 1 10 (-1,a) .
+mayores 1 10 (11,a) .
+mayores 2 10 (2,z) (2,a) .
+mayores 1 10 (3,z) (2,a) .
+mayores 1 10 (2,a) (3,z) .
+mayores 5 10 (9,a) (-1,b) (3,c) (9,d) (5,e) (1,f) (11,g) (10,h) (4,i) (2,j) .
+Fin

@@ -1,0 +1,70 @@
+# pruebas para funciones de uso_tads
+esta_ordenada_por_frase .
+esta_ordenada_por_frase (1,a) .
+esta_ordenada_por_frase (1,a) (2,b) (3,c) (4,d) .
+esta_ordenada_por_frase (1,b) (2,a) (3,b) (4,c) (5,d) .
+esta_ordenada_por_frase (4,a) (3,b) (2,d) (1,c) .
+esta_ordenada_por_frase (1,a) (2,a) (3,b) (4,c) (5,d) .
+reiniciar
+inverso_de_iter 1 1
+agregar_a_iterador a
+agregar_a_iterador b
+agregar_a_iterador c
+agregar_a_iterador d
+inverso_de_iter 1 1
+inverso_de_iter 1 2
+inverso_de_iter 1 3
+inverso_de_iter 1 4
+inverso_de_iter 2 3
+inverso_de_iter 2 4
+inverso_de_iter 3 4
+inverso_de_iter 4 4
+inverso_de_iter 5 5
+inverso_de_iter 2 8
+actual_iter
+reiniciar
+rango_en_conjunto a z
+incluir (1,a)
+rango_en_conjunto a z
+rango_en_conjunto a a
+rango_en_conjunto b z
+incluir (2,b)
+rango_en_conjunto a b
+rango_en_conjunto a a
+rango_en_conjunto b b
+incluir (3,c)
+incluir (4,m)
+incluir (5,p)
+rango_en_conjunto a z
+rango_en_conjunto a m
+rango_en_conjunto m z
+rango_en_conjunto c z
+rango_en_conjunto m m
+reiniciar
+imprimir_por_niveles
+insertar_en_binario (12,m) .
+imprimir_por_niveles
+insertar_en_binario (6,g) .
+insertar_en_binario (15,r) .
+imprimir_por_niveles
+insertar_en_binario (3,d) .
+insertar_en_binario (7,i) .
+imprimir_por_niveles
+insertar_en_binario (2,b) .
+insertar_en_binario (5,f) .
+imprimir_por_niveles
+insertar_en_binario (11,h) .
+insertar_en_binario (12,k) .
+insertar_en_binario (1,a) .
+insertar_en_binario (14,o) .
+insertar_en_binario (18,n) .
+insertar_en_binario (19,p) .
+insertar_en_binario (16,t) .
+insertar_en_binario (1,s) .
+imprimir_por_niveles
+insertar_en_binario (2,z) .
+insertar_en_binario (2,c) .
+insertar_en_binario (1,a) .
+insertar_en_binario (4,e) .
+imprimir_por_niveles
+Fin

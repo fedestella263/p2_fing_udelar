@@ -1,0 +1,122 @@
+# prueba de crear_cadena y liberar_cadena
+# prueba de es_vacia_cadena, insertar_al_final, imprimir_cadena
+es_vacia_cadena
+insertar_al_final (1,b)
+insertar_al_final (2,c)
+insertar_al_final (3,d)
+imprimir_cadena
+es_vacia_cadena
+# prueba de es_localizador, localizador_en_cadena, precede_en_cadena, incicio_cadena, final_cadena, kesimo, info_cadena
+es_localizador
+localizador_en_cadena
+inicio_cadena
+es_localizador
+localizador_en_cadena
+precede_en_cadena 1
+final_cadena
+es_localizador
+localizador_en_cadena
+precede_en_cadena 4
+kesimo 1
+kesimo 0
+es_localizador
+localizador_en_cadena
+kesimo 4
+es_localizador
+localizador_en_cadena
+# prueba de siguiente, anterior
+inicio_cadena
+siguiente
+anterior
+anterior
+es_localizador
+localizador_en_cadena
+final_cadena
+anterior
+siguiente
+siguiente
+es_localizador
+localizador_en_cadena
+# prueba de es_inicio_cadena, es_final_cadena
+inicio_cadena
+es_inicio_cadena
+es_final_cadena
+final_cadena
+es_inicio_cadena
+es_final_cadena
+# prueba de remover_de_cadena
+insertar_al_final (4,e)
+kesimo 3
+remover_de_cadena
+inicio_cadena
+remover_de_cadena
+final_cadena
+remover_de_cadena
+# prueba de insertar_antes
+final_cadena
+insertar_antes (4,d)
+inicio_cadena
+insertar_antes (2,c)
+insertar_antes (3,d)
+# prueba de cambiar_en_cadena, intercambiar
+kesimo 2
+cambiar_en_cadena (5,e)
+intercambiar 1 2
+# prueba de menor_en_cadena, siguiente_clave, anterior_clave
+inicio_cadena
+menor_en_cadena
+siguiente
+menor_en_cadena
+anterior_clave 1
+final_cadena
+anterior_clave 4
+anterior_clave 2
+es_localizador
+# prueba de insertar_segmento_despues, segmento_cadena, separar_segmento
+reiniciar
+insertar_segmento_despues .
+segmento_cadena 1 2
+separar_segmento 1 2
+insertar_segmento_despues (0,a) (3,d) (4,e) .
+insertar_segmento_despues .
+insertar_segmento_despues (1,b) (2,c) .
+final_cadena
+insertar_segmento_despues (5,f) (6,g) .
+segmento_cadena 4 4
+segmento_cadena 1 7
+separar_segmento 7 7
+separar_segmento 4 4
+separar_segmento 1 1
+# prueba de esta_ordenada, mezcla
+esta_ordenada
+insertar_al_final (10,z)
+insertar_segmento_despues (0,a) (3,d) (4,e) .
+esta_ordenada
+mezcla .
+mezcla (1,b) (2,c) (3,c) (4,f) .
+reiniciar
+mezcla .
+mezcla (1,b) (2,c) (3,c) (4,f) .
+# prueba de pertenece, longitud, cambiar_todos
+reiniciar
+insertar_al_final (1,b)
+longitud
+pertenece 1
+pertenece 10
+# prueba de cambiar_todos
+insertar_al_final (3,dd)
+cambiar_todos 3 1
+# prueba de son_iguales
+son_iguales .
+insertar_al_final (1,b)
+son_iguales (1,b) .
+# prueba de concatenar
+reiniciar
+concatenar .
+concatenar (1,b) (5,f) .
+# prueba de ordenar
+insertar_segmento_despues (5,f) (3,d) (6,g) .
+ordenar
+# prueba de subcadena
+subcadena 3 3
+Fin

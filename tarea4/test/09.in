@@ -1,0 +1,34 @@
+# pruebas para crear_balanceado, imprimir_por_niveles, cola_binarios
+crear_balanceado .
+crear_balanceado (1,a) .
+imprimir_por_niveles
+crear_balanceado (1,a) (2,a) .
+crear_balanceado (2,a) (2,b) .
+imprimir_por_niveles
+crear_balanceado (1,a) (2,b) (3,c) .
+imprimir_por_niveles
+crear_balanceado (11,a) (12,b) (13,c) (14,d) .
+imprimir_por_niveles
+crear_balanceado (1,a) (22,b) (3,c) (42,d) (5,e) .
+imprimir_por_niveles
+crear_balanceado (5,a) (6,b) (3,c) (7,d) (5,e) (6,f) .
+imprimir_por_niveles
+reiniciar
+frente
+es_vacia_cola_binarios
+desencolar
+encolar (1,a) (2,b) (3,c) .
+encolar (4,a) (2,b) (3,c) .
+encolar (1,d) (9,e) .
+encolar (6,f) .
+encolar (5,g) (7,h) (0,i) (10,j) .
+frente
+es_vacia_cola_binarios
+desencolar
+desencolar
+desencolar
+desencolar
+frente
+desencolar
+es_vacia_cola_binarios
+Fin

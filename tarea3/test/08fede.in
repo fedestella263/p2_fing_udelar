@@ -1,0 +1,67 @@
+# árbol vacio
+imprimir_binario
+es_vacio_binario
+es_AVL
+altura_binario
+cantidad_binario
+linealizacion
+buscar_subarbol txt
+filtrado 12
+remover_de_binario txt
+remover_mayor
+imprimir_binario
+# Fin
+# árbol con 1 elemento
+insertar_en_binario (12,m)
+insertar_en_binario (10,m)
+imprimir_binario
+es_vacio_binario
+es_AVL
+altura_binario
+cantidad_binario
+linealizacion
+buscar_subarbol txt
+buscar_subarbol m
+filtrado 12
+filtrado 13
+raiz
+izquierdo
+derecho
+remover_de_binario txt
+remover_mayor
+insertar_en_binario (12,m)
+remover_de_binario m
+imprimir_binario
+# Fin
+# insertar_en_binario, altura_binario, cantidad_binario
+insertar_en_binario (12,m)
+insertar_en_binario (5,d)
+insertar_en_binario (8,g)
+insertar_en_binario (10,i)
+insertar_en_binario (6,e)
+insertar_en_binario (0,m)
+insertar_en_binario (0,d)
+insertar_en_binario (0,g)
+insertar_en_binario (0,i)
+insertar_en_binario (0,e)
+altura_binario
+cantidad_binario
+imprimir_binario
+# Fin
+# remover_mayor
+remover_mayor
+remover_mayor
+remover_mayor
+imprimir_binario
+# Fin
+# remover_de_binario
+reiniciar
+insertar_en_binario (12,m)
+insertar_en_binario (5,d)
+insertar_en_binario (8,g)
+insertar_en_binario (10,i)
+insertar_en_binario (6,e)
+imprimir_binario
+Fin
+
+

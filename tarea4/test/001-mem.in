@@ -1,0 +1,134 @@
+# árbol vacio
+imprimir_binario
+es_vacio_binario
+es_AVL
+altura_binario
+cantidad_binario
+linealizacion
+buscar_subarbol txt
+filtrado 12
+remover_de_binario txt
+remover_mayor
+raiz
+izquierdo
+derecho
+imprimir_binario
+# Fin
+# árbol con 1 elemento
+insertar_en_binario (5,g)
+insertar_en_binario (10,g)
+imprimir_binario
+es_vacio_binario
+es_AVL
+altura_binario
+cantidad_binario
+linealizacion
+buscar_subarbol txt
+buscar_subarbol g
+filtrado 6
+filtrado 13
+raiz
+izquierdo
+derecho
+remover_de_binario txt
+remover_mayor
+insertar_en_binario (5,g)
+remover_de_binario g
+imprimir_binario
+# Fin
+# arbol con 11 elementos
+insertar_en_binario (5,g)
+altura_binario
+cantidad_binario
+es_AVL
+linealizacion
+raiz
+izquierdo
+derecho
+insertar_en_binario (4,c)
+insertar_en_binario (7,k)
+altura_binario
+cantidad_binario
+es_AVL
+linealizacion
+raiz
+izquierdo
+derecho
+insertar_en_binario (3,b)
+insertar_en_binario (8,i)
+insertar_en_binario (8,h)
+altura_binario
+cantidad_binario
+es_AVL
+linealizacion
+raiz
+izquierdo
+derecho
+insertar_en_binario (6,p)
+insertar_en_binario (4,m)
+altura_binario
+cantidad_binario
+es_AVL
+linealizacion
+raiz
+izquierdo
+derecho
+insertar_en_binario (9,a)
+insertar_en_binario (1,e)
+insertar_en_binario (2,d)
+altura_binario
+cantidad_binario
+es_AVL
+linealizacion
+raiz
+izquierdo
+derecho
+imprimir_binario
+# Fin
+# remover
+remover_mayor
+remover_mayor
+remover_mayor
+remover_mayor
+remover_mayor
+imprimir_binario
+remover_de_binario k
+remover_de_binario c
+remover_de_binario b
+remover_de_binario g
+imprimir_binario
+# Fin
+# buscar_subarbol, kesimo_en_binario, filtrado
+reiniciar
+insertar_en_binario (5,g)
+linealizacion
+insertar_en_binario (7,k)
+linealizacion
+insertar_en_binario (8,i)
+insertar_en_binario (4,c)
+insertar_en_binario (1,e)
+insertar_en_binario (2,d)
+insertar_en_binario (3,b)
+insertar_en_binario (9,a)
+linealizacion
+insertar_en_binario (8,h)
+insertar_en_binario (6,p)
+insertar_en_binario (4,m)
+buscar_subarbol c
+buscar_subarbol e
+buscar_subarbol t
+buscar_subarbol k
+buscar_subarbol p
+buscar_subarbol g
+kesimo_en_binario 1
+kesimo_en_binario 3
+kesimo_en_binario 5
+kesimo_en_binario 7
+kesimo_en_binario 9
+kesimo_en_binario 11
+linealizacion
+filtrado 5
+filtrado 3
+filtrado 8
+imprimir_binario
+Fin

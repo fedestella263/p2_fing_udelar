@@ -1,0 +1,44 @@
+# pruebas para iterador , inverso_de_iter
+esta_definida_actual
+actual_iter
+reiniciar_iter
+iterador_a_cadena
+agregar_a_iterador uno
+esta_definida_actual
+actual_iter
+iterador_a_cadena
+avanzar_iter
+esta_definida_actual
+reiniciar_iter
+hay_siguiente_en_iter
+inverso_de_iter 1 1
+inverso_de_iter 2 2
+agregar_a_iterador dos
+agregar_a_iterador tres
+agregar_a_iterador cuatro
+agregar_a_iterador cinco
+esta_definida_actual
+iterador_a_cadena
+inverso_de_iter 1 1
+inverso_de_iter 2 3
+inverso_de_iter 2 2
+inverso_de_iter 1 6
+reiniciar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+actual_iter
+hay_siguiente_en_iter
+iterador_a_cadena
+inverso_de_iter 2 6
+inverso_de_iter 1 5
+inverso_de_iter 5 5
+#Fin
+# pruebas para esta_ordenada_por_frase
+esta_ordenada_por_frase .
+esta_ordenada_por_frase (5,m) .
+esta_ordenada_por_frase (1,m) (2,n) (3,o) (4,p) .
+esta_ordenada_por_frase (1,b) (2,a) (3,b) (4,c) (5,d) .
+esta_ordenada_por_frase (1,m) (2,m) (3,n) (4,o) .
+esta_ordenada_por_frase (1,a) (2,b) (5,b) (3,c) (4,d) .
+Fin

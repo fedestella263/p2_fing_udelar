@@ -1,0 +1,125 @@
+# pruebas para cola_prioridad
+es_vacia_cp
+insertar_en_cp 1 (1,a)
+insertar_en_cp 50 (1,z)
+insertar_en_cp 6 (6,b)
+insertar_en_cp 43 (43,y)
+insertar_en_cp 12 (12,c)
+insertar_en_cp 37 (37,v)
+insertar_en_cp 18 (18,d)
+insertar_en_cp 31 (31,u)
+insertar_en_cp 24 (24,e)
+insertar_en_cp 25 (25,m)
+es_llena_cp
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+es_llena_cp
+es_vacia_cp
+insertar_en_cp 1 (1,a)
+insertar_en_cp 50 (50,z)
+priorizar 50
+despriorizar 1
+priorizar 25
+despriorizar 1
+prioritario
+prioridad_prioritario
+priorizar 12
+despriorizar 25
+prioritario
+prioridad_prioritario
+priorizar 6
+despriorizar 37
+prioritario
+prioridad_prioritario
+priorizar 3
+despriorizar 43
+prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioritario
+prioridad_prioritario
+eliminar_prioritario
+# pruebas para tabla
+asociar_en_tabla 1 a
+asociar_en_tabla 2 b
+asociar_en_tabla 3 c
+asociar_en_tabla 4 d
+asociar_en_tabla 5 e
+asociar_en_tabla 1 aa
+asociar_en_tabla 6 f
+asociar_en_tabla 7 g
+asociar_en_tabla 8 h
+asociar_en_tabla 9 i
+asociar_en_tabla 10 j
+asociar_en_tabla 11 k
+asociar_en_tabla 8 hh
+asociar_en_tabla 3 cc
+asociar_en_tabla 12 l
+asociar_en_tabla 13 m
+asociar_en_tabla 13 mm
+asociar_en_tabla 14 n
+asociar_en_tabla 15 o
+asociar_en_tabla 6 ff
+esta_llena_tabla
+valor_en_tabla 1
+valor_en_tabla 2
+valor_en_tabla 3
+valor_en_tabla 4
+valor_en_tabla 5
+valor_en_tabla 6
+valor_en_tabla 7
+valor_en_tabla 8
+valor_en_tabla 9
+valor_en_tabla 10
+valor_en_tabla 11
+valor_en_tabla 12
+valor_en_tabla 13
+valor_en_tabla 14
+eliminar_de_tabla 1
+eliminar_de_tabla 2
+eliminar_de_tabla 3
+existe_asociacion 0
+existe_asociacion 3
+existe_asociacion 2
+existe_asociacion 4
+existe_asociacion 5
+eliminar_de_tabla 4
+eliminar_de_tabla 5
+eliminar_de_tabla 6
+eliminar_de_tabla 7
+eliminar_de_tabla 8
+eliminar_de_tabla 9
+eliminar_de_tabla 10
+existe_asociacion 6
+existe_asociacion 7
+existe_asociacion 11
+existe_asociacion 12
+eliminar_de_tabla 11
+eliminar_de_tabla 12
+eliminar_de_tabla 13
+esta_llena_tabla
+# pruebas de mayores
+mayores 1 1 (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) .
+mayores 1 10 (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) .
+mayores 2 10 (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) .
+mayores 2 1 (1,z) (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) .
+mayores 2 10 (1,z) (1,a) (2,b) (3,c) (4,d) (10,t) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) .
+Fin

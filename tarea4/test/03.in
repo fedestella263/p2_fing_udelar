@@ -1,0 +1,31 @@
+# pruebas para iterador
+esta_definida_actual
+reiniciar_iter
+esta_definida_actual
+avanzar_iter
+esta_definida_actual
+iterador_a_cadena
+agregar_a_iterador abc
+esta_definida_actual
+avanzar_iter
+iterador_a_cadena
+reiniciar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+agregar_a_iterador def
+agregar_a_iterador ghi
+esta_definida_actual
+reiniciar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+actual_iter
+iterador_a_cadena
+Fin

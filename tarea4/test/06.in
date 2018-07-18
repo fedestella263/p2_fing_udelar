@@ -1,0 +1,214 @@
+# pruebas para crear_balanceado
+crear_balanceado .
+crear_balanceado (4,a) .
+crear_balanceado (4,a) (2,b) (3,c) .
+crear_balanceado (4,a) (2,b) (3,c) (7,d) .
+crear_balanceado (4,a) (2,b) (3,c) (1,d) (5,e) (1,f) (7,g) (1,h) (4,i) (2,j) (3,k) (1,l) (5,m) (1,n) (7,o) .
+crear_balanceado (4,a) (2,b) (3,c) (1,d) (5,e) (1,f) (7,g) (1,h) (4,i) (2,j) (3,k) (1,l) (5,m) (1,n) (7,o) (2,p) .
+# Fin
+# pruebas para pila
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+apilar uno
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+apilar uno
+apilar dos
+apilar tres 
+apilar cuatro 
+apilar cuatro .
+desapilar
+cima
+desapilar
+cima
+apilar cuatro
+apilar cinco
+apilar seis
+apilar siete
+apilar ocho
+apilar nueve
+cima
+es_vacia_pila
+es_llena_pila
+apilar diez
+cima
+es_vacia_pila
+es_llena_pila
+apilar once
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+# Fin
+# pruebas para cola_binarios
+frente
+es_vacia_cola_binarios
+desencolar
+encolar (4,a) (2,b) (3,c) .
+frente
+es_vacia_cola_binarios
+desencolar
+es_vacia_cola_binarios
+encolar (4,a) (2,b) (3,c) .
+encolar (1,d) (9,e) .
+encolar (6,f) .
+encolar (5,g) (7,h) (0,i) (10,j) .
+frente
+es_vacia_cola_binarios
+desencolar
+frente
+desencolar
+frente
+desencolar
+es_vacia_cola_binarios
+frente
+desencolar
+es_vacia_cola_binarios
+# Fin
+# pruebas para imprimir_niveles
+reiniciar
+imprimir_por_niveles
+insertar_en_binario (1,h) .
+imprimir_por_niveles
+insertar_en_binario (2,d) .
+insertar_en_binario (2,l) .
+imprimir_por_niveles
+insertar_en_binario (3,b) .
+insertar_en_binario (4,a) .
+imprimir_por_niveles
+insertar_en_binario (3,o) .
+insertar_en_binario (4,p) .
+imprimir_por_niveles
+insertar_en_binario (4,c) .
+insertar_en_binario (3,f) .
+insertar_en_binario (4,e) .
+insertar_en_binario (4,g) .
+insertar_en_binario (3,j) .
+insertar_en_binario (4,i) .
+insertar_en_binario (4,k) .
+insertar_en_binario (4,m) .
+imprimir_por_niveles
+insertar_en_binario (5,n) .
+imprimir_por_niveles
+# Fin
+# pruebas para esta_ordenada_por_frase
+esta_ordenada_por_frase .
+esta_ordenada_por_frase (3,c) .
+esta_ordenada_por_frase (4,a) (2,b) (3,c) (7,d) .
+esta_ordenada_por_frase (2,b) (4,a) (5,b) (3,c) (7,d) .
+esta_ordenada_por_frase (4,a) (2,b) (7,d) (3,c) .
+esta_ordenada_por_frase (4,a) (2,b) (5,b) (3,c) (7,d) .
+# Fin
+# pruebas para iterador
+esta_definida_actual
+reiniciar_iter
+esta_definida_actual
+avanzar_iter
+esta_definida_actual
+iterador_a_cadena
+agregar_a_iterador asd
+esta_definida_actual
+avanzar_iter
+esta_definida_actual
+iterador_a_cadena
+esta_definida_actual
+reiniciar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+esta_definida_actual
+iterador_a_cadena
+esta_definida_actual
+agregar_a_iterador zxc
+esta_definida_actual
+reiniciar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+actual_iter
+hay_siguiente_en_iter
+iterador_a_cadena
+# Fin
+# pruebas para conjunto
+es_vacio_conjunto
+pertenece_conjunto qwe
+excluir qwe
+iterador_conjunto
+incluir (1,b)
+es_vacio_conjunto
+pertenece_conjunto qwe
+pertenece_conjunto b
+iterador_conjunto
+construir_conjunto (5,g) (7,h) (0,i) (10,j) .
+union_conjunto .
+union_conjunto (3,h) .
+union_conjunto (3,b) (4,g) (2,l) .
+reiniciar
+union_conjunto .
+union_conjunto (3,b) (4,g) (2,l) .
+interseccion (3,b) (4,g) (2,l) .
+diferencia (3,b) (4,g) (2,l) .
+construir_conjunto (5,g) (7,h) (0,i) (10,j) .
+interseccion .
+diferencia .
+interseccion (3,b) (4,g) (2,l) .
+diferencia (3,b) (4,g) (2,l) .
+# Fin
+# pruebas para inverso_de_iter
+reiniciar
+inverso_de_iter 1 1
+agregar_a_iterador a
+agregar_a_iterador d
+agregar_a_iterador f
+agregar_a_iterador k
+reiniciar_iter
+avanzar_iter
+actual_iter
+inverso_de_iter 1 1
+inverso_de_iter 1 2
+inverso_de_iter 1 4
+inverso_de_iter 1 5
+inverso_de_iter 2 3
+inverso_de_iter 3 3
+inverso_de_iter 5 5
+actual_iter
+# Fin
+# pruebas para rango_en_conjunto
+reiniciar
+rango_en_conjunto a z
+incluir (1,a)
+rango_en_conjunto a z
+rango_en_conjunto a a
+rango_en_conjunto b z
+incluir (2,z)
+rango_en_conjunto a z
+rango_en_conjunto a a
+rango_en_conjunto z z
+incluir (3,zz)
+incluir (4,m)
+incluir (5,d)
+rango_en_conjunto a zz
+rango_en_conjunto aa z
+rango_en_conjunto d z
+rango_en_conjunto e z
+rango_en_conjunto m m
+Fin

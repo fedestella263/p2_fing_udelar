@@ -1,0 +1,18 @@
+imprimir_numero
+imprimir_frase
+imprimir_info
+son_iguales (5,) (5,)
+son_iguales (5,a) (5,a)
+son_iguales (5,a) (5,a )
+son_iguales (5,a) (5, a)
+son_iguales (5,a) (-5,a)
+copiar_info
+imprimir_info
+cambiar_numero 100
+imprimir_info
+cambiar_frase xx x
+imprimir_info
+leer_info (50,asd f)
+combinar_info (50,asd f) (49,-qqq)
+imprimir_info
+Fin

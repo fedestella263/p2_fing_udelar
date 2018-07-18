@@ -1,0 +1,40 @@
+# pruebas para cola_binarios
+es_vacia_cola_binarios
+frente
+desencolar
+encolar (1,a) (2,b) (3,c) .
+es_vacia_cola_binarios
+frente
+encolar (11,a) (21,b) (31,c) .
+encolar (4,d) (5,e) .
+encolar (6,f) .
+es_vacia_cola_binarios
+frente
+encolar (7,g) (8,h) (9,i) (10,j) .
+encolar (7,g) (8,h) (9,i) (10,j) .
+encolar (11,k) (12,l) (13,m) (14,n) (15,o) (16,p) (17,q) (18,r) .
+es_vacia_cola_binarios
+frente
+desencolar
+frente
+desencolar
+frente
+desencolar
+frente
+desencolar
+encolar .
+encolar (7,g) (8,h) (9,i) (10,j) .
+es_vacia_cola_binarios
+frente
+desencolar
+frente
+desencolar
+frente
+desencolar
+frente
+desencolar
+es_vacia_cola_binarios
+frente
+desencolar
+es_vacia_cola_binarios
+Fin

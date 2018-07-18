@@ -1,0 +1,19 @@
+# es_vacio_binario, insertar_en_binario, imprimir_binario
+es_vacio_binario
+imprimir_binario
+insertar_en_binario (3,k)
+es_vacio_binario
+imprimir_binario
+insertar_en_binario (10,k)
+imprimir_binario
+insertar_en_binario (1,n)
+insertar_en_binario (7,z)
+insertar_en_binario (4,l)
+insertar_en_binario (3,m)
+insertar_en_binario (2,a)
+imprimir_binario
+insertar_en_binario (10,l)
+imprimir_binario
+insertar_en_binario (6,b)
+imprimir_binario
+Fin

@@ -1,0 +1,55 @@
+# pruebas para tabla
+esta_llena_tabla
+existe_asociacion 1
+asociar_en_tabla 1 a
+existe_asociacion 1
+valor_en_tabla 1
+asociar_en_tabla 1 b
+valor_en_tabla 1
+asociar_en_tabla 2 b
+asociar_en_tabla 3 c
+asociar_en_tabla 4 d
+asociar_en_tabla 5 e
+valor_en_tabla 1
+valor_en_tabla 2
+valor_en_tabla 3
+valor_en_tabla 4
+valor_en_tabla 5
+asociar_en_tabla 1 aa
+asociar_en_tabla 2 bb
+asociar_en_tabla 3 cc
+valor_en_tabla 1
+valor_en_tabla 2
+valor_en_tabla 3
+valor_en_tabla 4
+valor_en_tabla 5
+valor_en_tabla 0
+esta_llena_tabla
+asociar_en_tabla 6 f
+asociar_en_tabla 7 g
+asociar_en_tabla 8 h
+asociar_en_tabla 9 i
+asociar_en_tabla 10 j
+asociar_en_tabla 11 k
+asociar_en_tabla 12 l
+esta_llena_tabla
+asociar_en_tabla 13 m
+esta_llena_tabla
+asociar_en_tabla 14 m
+valor_en_tabla 12
+eliminar_de_tabla 0
+eliminar_de_tabla 1
+eliminar_de_tabla 2
+eliminar_de_tabla 3
+eliminar_de_tabla 4
+esta_llena_tabla
+eliminar_de_tabla 5
+eliminar_de_tabla 6
+eliminar_de_tabla 7
+eliminar_de_tabla 8
+eliminar_de_tabla 9
+eliminar_de_tabla 10
+eliminar_de_tabla 11
+eliminar_de_tabla 12
+eliminar_de_tabla 13
+Fin

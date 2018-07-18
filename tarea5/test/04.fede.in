@@ -1,0 +1,6 @@
+insertar_en_cp 1 (1,a)
+insertar_en_cp 12 (50,z)
+despriorizar 1
+prioritario
+prioridad_prioritario
+Fin

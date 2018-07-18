@@ -1,0 +1,56 @@
+# pruebas para pila
+es_vacia_pila
+es_llena_pila
+cima
+desapilar
+apilar a
+es_vacia_pila
+es_llena_pila
+cima
+desapilar
+es_vacia_pila
+es_llena_pila
+apilar a
+apilar b
+apilar c
+apilar d
+es_vacia_pila
+es_llena_pila
+cima
+desapilar
+cima
+desapilar
+cima
+apilar c
+apilar d
+apilar e
+apilar f
+apilar g
+apilar h
+apilar h
+cima
+es_vacia_pila
+es_llena_pila
+apilar i
+apilar j
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+cima
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+Fin

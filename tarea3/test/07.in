@@ -1,0 +1,19 @@
+# filtrado
+insertar_en_binario (6,m)
+insertar_en_binario (7,p)
+insertar_en_binario (3,j)
+insertar_en_binario (4,t)
+insertar_en_binario (3,z)
+insertar_en_binario (4,k)
+insertar_en_binario (1,f)
+insertar_en_binario (9,a)
+insertar_en_binario (8,n)
+insertar_en_binario (9,o)
+insertar_en_binario (2,h)
+insertar_en_binario (5,l)
+imprimir_binario
+filtrado 5
+filtrado 4
+filtrado 10
+imprimir_binario
+Fin

@@ -1,0 +1,174 @@
+# pruebas para crear_balanceado, imprimir_por_niveles
+crear_balanceado .
+crear_balanceado (1,a) .
+imprimir_por_niveles
+crear_balanceado (1,a) (2,b) .
+imprimir_por_niveles
+crear_balanceado (1,a) (2,b) (3,c) .
+crear_balanceado (1,a) (2,b) (3,c) (4,d) .
+crear_balanceado (1,a) (2,b) (3,c) (4,d) (5,e) .
+crear_balanceado (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) .
+imprimir_por_niveles
+crear_balanceado (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) .
+imprimir_por_niveles
+crear_balanceado (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) (11,k) (12,l) (13,m) (14,n) (15,o) .
+imprimir_por_niveles
+crear_balanceado (1,a) (2,b) (3,c) (4,d) (5,e) (6,f) (7,g) (8,h) (9,i) (10,j) (11,k) (12,l) (13,m) (14,n) (15,o) (16,p) (17,q) (18,r) (19,s) (20,t) (21,u) (22,v) .
+imprimir_por_niveles
+#Fin
+# pruebas para esta_ordenada_por_frase
+esta_ordenada_por_frase .
+esta_ordenada_por_frase (1,a) .
+esta_ordenada_por_frase (1,a) (2,b) (3,c) (4,d) .
+esta_ordenada_por_frase (1,b) (2,a) (3,b) (4,c) (5,d) .
+esta_ordenada_por_frase (1,a) (2,b) (3,d) (4,c) .
+esta_ordenada_por_frase (1,a) (2,b) (5,b) (3,c) (4,d) .
+#Fin
+# pruebas para iterador, inverso_de_iter
+esta_definida_actual
+reiniciar_iter
+avanzar_iter
+iterador_a_cadena
+agregar_a_iterador a
+esta_definida_actual
+iterador_a_cadena
+avanzar_iter
+esta_definida_actual
+reiniciar_iter
+actual_iter
+hay_siguiente_en_iter
+inverso_de_iter 1 1
+inverso_de_iter 2 2
+agregar_a_iterador b
+esta_definida_actual
+iterador_a_cadena
+inverso_de_iter 1 1
+inverso_de_iter 2 2
+inverso_de_iter 1 2
+agregar_a_iterador c
+agregar_a_iterador d
+agregar_a_iterador e
+reiniciar_iter
+actual_iter
+hay_siguiente_en_iter
+avanzar_iter
+actual_iter
+hay_siguiente_en_iter
+iterador_a_cadena
+inverso_de_iter 1 1
+inverso_de_iter 1 2
+inverso_de_iter 1 4
+inverso_de_iter 1 5
+inverso_de_iter 2 3
+inverso_de_iter 3 3
+inverso_de_iter 5 5
+#Fin
+# pruebas para conjunto, rango_en_conjunto
+es_vacio_conjunto
+pertenece_conjunto a
+excluir a
+iterador_conjunto
+incluir (1,a)
+es_vacio_conjunto
+pertenece_conjunto qwe
+pertenece_conjunto a
+iterador_conjunto
+reiniciar
+construir_conjunto (1,a) (2,b) (4,d) (6,f) .
+union_conjunto .
+union_conjunto (3,h) .
+union_conjunto (3,c) (4,f) (2,l) .
+union_conjunto (1,a) (2,b) (4,d) (6,f) .
+reiniciar
+construir_conjunto (1,a) (2,b) (4,d) (6,f) .
+interseccion (1,a) (2,b) (4,d) (6,f) .
+interseccion  (2,b) (6,f) (4,g) (2,l) .
+interseccion  (2,m) (6,n) (4,o) (2,p) .
+reiniciar
+construir_conjunto (1,a) (2,b) (4,d) (6,f) .
+diferencia (3,b) .
+diferencia (4,d) (2,f) .
+reiniciar
+construir_conjunto (1,a) (2,b) (4,d) (6,f) .
+rango_en_conjunto a z
+rango_en_conjunto a a
+rango_en_conjunto b d
+rango_en_conjunto z z
+rango_en_conjunto d z
+rango_en_conjunto e z
+rango_en_conjunto m m
+#Fin
+# pruebas para pila
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+apilar uno
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+apilar a
+apilar b
+apilar c
+apilar d
+apilar d .
+apilar e
+apilar f
+apilar g
+apilar h
+apilar i
+cima
+es_vacia_pila
+es_llena_pila
+apilar j
+cima
+es_vacia_pila
+es_llena_pila
+apilar k
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+desapilar
+cima
+es_vacia_pila
+es_llena_pila
+# Fin
+# pruebas para cola_binarios
+reiniciar
+frente
+es_vacia_cola_binarios
+desencolar
+encolar (1,a) (2,b) (3,c) .
+frente
+es_vacia_cola_binarios
+desencolar
+es_vacia_cola_binarios
+encolar (4,a) (2,b) (3,c) .
+encolar (1,d) (9,e) .
+encolar (6,f) .
+encolar (5,g) (7,h) (0,i) (10,j) .
+frente
+es_vacia_cola_binarios
+desencolar
+frente
+desencolar
+frente
+desencolar
+es_vacia_cola_binarios
+frente
+desencolar
+es_vacia_cola_binarios
+Fin

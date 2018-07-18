@@ -1,0 +1,46 @@
+# pruebas para conjunto , rango_en_conjunto
+es_vacio_conjunto
+incluir (1,a)
+incluir (2,b)
+incluir (3,c)
+incluir (4,d)
+incluir (5,e)
+iterador_conjunto
+pertenece_conjunto a
+pertenece_conjunto z
+excluir a
+excluir b
+excluir c
+excluir d
+excluir e
+iterador_conjunto
+es_vacio_conjunto
+construir_conjunto (1,a) (2,b) (3,c) (4,d) (5,e) .
+es_vacio_conjunto
+iterador_conjunto
+pertenece_conjunto b
+pertenece_conjunto z
+union_conjunto (1,a) (2,b) (3,c) (4,d) (5,e) .
+union_conjunto (3,f) (4,g) (2,l) .
+union_conjunto (1,a) (2,b) (6,f) (7,g) .
+reiniciar
+union_conjunto .
+interseccion .
+diferencia .
+construir_conjunto (1,a) (2,b) (3,c) (4,d) (5,e) .
+interseccion (1,a) (2,b) (3,c) (4,d) (5,e) .
+interseccion (3,f) (4,g) (2,l) .
+interseccion (1,a) (2,b) (6,f) (7,g) .
+reiniciar
+construir_conjunto (1,a) (2,b) (3,c) (4,d) (5,e) .
+diferencia (1,a) (2,b) (3,c) (4,d) (5,e) .
+diferencia (3,f) (4,g) (2,l) .
+diferencia (1,a) (2,b) (6,f) (7,g) .
+rango_en_conjunto a z
+rango_en_conjunto b b
+rango_en_conjunto b d
+rango_en_conjunto z z
+rango_en_conjunto d z
+rango_en_conjunto e z
+rango_en_conjunto m m
+Fin

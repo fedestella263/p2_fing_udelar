@@ -1,0 +1,6 @@
+# prueba son_iguales
+son_iguales (5,a) (5,a)
+son_iguales (5,a b) (5,a b)
+son_iguales (5,a) (5,b)
+son_iguales (5,a) (6,a)
+Fin

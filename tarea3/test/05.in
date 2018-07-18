@@ -1,0 +1,20 @@
+# es_AVL
+imprimir_binario
+es_AVL
+insertar_en_binario (3,k)
+imprimir_binario
+es_AVL
+insertar_en_binario (1,n)
+imprimir_binario
+es_AVL
+insertar_en_binario (7,z)
+insertar_en_binario (4,l)
+imprimir_binario
+es_AVL
+insertar_en_binario (2,a)
+imprimir_binario
+es_AVL
+insertar_en_binario (3,m)
+imprimir_binario
+es_AVL
+Fin

@@ -1,0 +1,42 @@
+# pruebas para cola_prioridad
+insertar_en_cp 40 (1,a)
+insertar_en_cp 5 (2,b)
+insertar_en_cp 30 (30,c)
+insertar_en_cp 12 (12,d)
+insertar_en_cp 50 (50,e)
+insertar_en_cp 37 (37,f)
+insertar_en_cp 25 (25,g)
+insertar_en_cp 10 (20,h)
+despriorizar 5
+hay_prioridad 5
+hay_prioridad 27
+prioritario
+prioridad_prioritario
+priorizar 37
+hay_prioridad 37
+hay_prioridad 18
+despriorizar 25
+hay_prioridad 25
+hay_prioridad 37
+priorizar 50
+hay_prioridad 50
+hay_prioridad 25
+max_prioridad
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+prioridad_prioritario
+eliminar_prioritario
+es_vacia_cp
+Fin

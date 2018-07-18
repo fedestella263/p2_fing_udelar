@@ -1,0 +1,31 @@
+# pruebas para conjunto
+es_vacio_conjunto
+pertenece_conjunto bbb
+excluir bbb
+iterador_conjunto
+incluir (1,a)
+es_vacio_conjunto
+pertenece_conjunto bbb
+excluir bbb
+iterador_conjunto
+construir_conjunto (1,a) (2,b) (3,c) (4,d) (5,e) .
+es_vacio_conjunto
+pertenece_conjunto b
+pertenece_conjunto z
+excluir b
+union_conjunto .
+union_conjunto (2,b) .
+union_conjunto (3,f) (4,g) (2,l) .
+union_conjunto (8,d) (9,e) .
+reiniciar
+union_conjunto .
+interseccion .
+diferencia .
+construir_conjunto (1,a) (2,b) (3,c) (4,d) (5,e) .
+interseccion (3,b) (4,d) (2,l) .
+diferencia (3,b) (4,d) (2,l) .
+interseccion (13,b) (14,c) (12,e) .
+diferencia (13,b) (14,c) (12,e) .
+interseccion (31,f) (41,g) (21,h) .
+diferencia (31,f) (41,g) (21,h) .
+Fin

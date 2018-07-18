@@ -1,0 +1,152 @@
+# árbol vacio
+imprimir_binario
+es_vacio_binario
+es_AVL
+altura_binario
+cantidad_binario
+linealizacion
+buscar_subarbol txt
+filtrado 12
+remover_de_binario txt
+remover_mayor
+imprimir_binario
+# Fin
+# árbol con 1 elemento
+insertar_en_binario (12,m)
+insertar_en_binario (10,m)
+imprimir_binario
+es_vacio_binario
+es_AVL
+altura_binario
+cantidad_binario
+linealizacion
+buscar_subarbol txt
+buscar_subarbol m
+filtrado 12
+filtrado 13
+raiz
+izquierdo
+derecho
+remover_de_binario txt
+remover_mayor
+insertar_en_binario (12,m)
+remover_de_binario m
+imprimir_binario
+# Fin
+# insertar_en_binario, altura_binario, cantidad_binario
+insertar_en_binario (12,m)
+insertar_en_binario (5,d)
+insertar_en_binario (8,g)
+insertar_en_binario (10,i)
+insertar_en_binario (6,e)
+insertar_en_binario (0,m)
+insertar_en_binario (0,d)
+insertar_en_binario (0,g)
+insertar_en_binario (0,i)
+insertar_en_binario (0,e)
+altura_binario
+cantidad_binario
+imprimir_binario
+# Fin
+# remover_mayor
+remover_mayor
+remover_mayor
+remover_mayor
+imprimir_binario
+# Fin
+# remover_de_binario
+reiniciar
+insertar_en_binario (12,m)
+insertar_en_binario (5,d)
+insertar_en_binario (8,g)
+insertar_en_binario (10,i)
+insertar_en_binario (6,e)
+remover_de_binario a
+remover_de_binario f
+remover_de_binario h
+remover_de_binario z
+remover_de_binario m
+remover_de_binario d
+remover_de_binario g
+imprimir_binario
+# Fin
+# es_AVL
+reiniciar
+insertar_en_binario (12,m)
+es_AVL
+insertar_en_binario (14,o)
+es_AVL
+insertar_en_binario (16,r)
+es_AVL
+insertar_en_binario (7,f)
+es_AVL
+insertar_en_binario (5,d)
+insertar_en_binario (3,b)
+es_AVL
+insertar_en_binario (8,g)
+es_AVL
+imprimir_binario
+# Fin
+# raiz, izquierdo, derecho
+raiz
+izquierdo
+derecho
+remover_mayor
+remover_mayor
+raiz
+izquierdo
+derecho
+remover_mayor
+raiz
+izquierdo
+derecho
+remover_de_binario b
+remover_de_binario d
+raiz
+izquierdo
+derecho
+imprimir_binario
+# Fin
+# buscar_subarbol, kesimo_en_binario, linealizacion
+reiniciar
+insertar_en_binario (12,m)
+linealizacion
+insertar_en_binario (5,d)
+linealizacion
+insertar_en_binario (8,g)
+insertar_en_binario (10,i)
+insertar_en_binario (6,e)
+insertar_en_binario (15,p)
+buscar_subarbol a
+buscar_subarbol d
+buscar_subarbol e
+buscar_subarbol i
+buscar_subarbol p
+buscar_subarbol z
+kesimo_en_binario 1
+kesimo_en_binario 2
+kesimo_en_binario 3
+kesimo_en_binario 4
+kesimo_en_binario 5
+kesimo_en_binario 6
+linealizacion
+imprimir_binario
+# Fin
+# filtrado
+reiniciar
+insertar_en_binario (5,g)
+insertar_en_binario (4,c)
+insertar_en_binario (7,k)
+insertar_en_binario (3,b)
+insertar_en_binario (1,e)
+insertar_en_binario (8,i)
+insertar_en_binario (6,p)
+insertar_en_binario (9,a)
+insertar_en_binario (2,d)
+insertar_en_binario (8,h)
+insertar_en_binario (4,m)
+filtrado 5
+imprimir_binario
+Fin
+
+
